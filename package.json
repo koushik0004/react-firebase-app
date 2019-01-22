@@ -4,8 +4,16 @@
   "private": true,
   "initial-login": {
     "firbase": true,
-    "uid": "koushik@gmail.com",
-    "passcode": "react1234"
+    "credentials": [
+      {
+        "uid": "koushik@gmail.com",
+        "passcode": "react1234"
+      },
+      {
+        "uid": "react@gmail.com",
+        "passcode": "react1234"
+      }
+    ]
   },
   "dependencies": {
     "firebase": "^5.7.1",
