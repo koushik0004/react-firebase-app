@@ -2,6 +2,11 @@
   "name": "firebase-react-redux",
   "version": "0.1.0",
   "private": true,
+  "initial-login": {
+    "firbase": true,
+    "uid": "koushik@gmail.com",
+    "passcode": "react1234"
+  },
   "dependencies": {
     "firebase": "^5.7.1",
     "moment": "^2.23.0",
