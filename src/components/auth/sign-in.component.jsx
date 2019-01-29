@@ -61,9 +61,7 @@ const mapStateToProps = (state) => {
     auth: state.firebase.auth
   }
 };
-const mapDispatchToProps = (dispatch) => {
-  return {
-    SignIn: (creds) => dispatch(SignIn(creds))
-  };
-}
+const mapDispatchToProps = (dispatch) => ({
+  SignIn: (creds) => dispatch(SignIn(creds))
+});
 export default connect(mapStateToProps, mapDispatchToProps)(SignInComponent);
